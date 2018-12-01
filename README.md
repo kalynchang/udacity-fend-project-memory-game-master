@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [Game](#game)
+* [Instructions](#instructions)
 * [Dependencies](#dependencies)
 
 ## Game
@@ -19,6 +20,9 @@ rating of 1.
 
 A timer feature and a moves counter feature are also provided for the user to understand their
 game performance.
+
+## Instructions
+Download the repository and open index.html in your browser to load the game and start playing.
 
 ## Dependencies
 
