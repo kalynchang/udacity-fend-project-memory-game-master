@@ -33,17 +33,14 @@ const updateMovesCounter = (moves, movesDisplay) => {
 };
 
 const updateStarDisplay = (moves, starDisplay) => {
-  // After 10 moves remove a star
+  // After 10 moves remove a star, after 20 moves remove another star
   if (moves > 10 && moves <= 20) {
     starDisplay[0].classList.add('hide');
     return 2;
-  }
-  // After 20 moves remove another star
-  else if (moves > 20) {
+  } else if (moves > 20) {
     starDisplay[1].classList.add('hide');
     return 1;
-  }
-  else {
+  } else {
     return 3;
   }
 };
